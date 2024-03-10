@@ -1,6 +1,5 @@
 'use strict'
-// ADD PHOTO FOR MOBILE
-// DEFAULT MOBILE MODE
+
 const decktopImage = document.querySelector('.desktop-phone');
 const phoneImage = document.querySelector('.photo-phone');
 
@@ -8,8 +7,6 @@ const openIcon = document.querySelector(".open-icon");
 const closeIcon = document.querySelector(".close-icon");
 
 const navList = document.querySelector(".nav-list");
-
-
 
 if (window.innerWidth <= 380) {
   phoneImage.classList.remove('hidden');
