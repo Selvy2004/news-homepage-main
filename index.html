@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    
+    <title>Frontend Mentor | News homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+      .attribution { font-size: 11px; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+    </style> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&family=Outfit:wght@700&family=Young+Serif&display=swap" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/queries.css" rel="stylesheet"/>
+    <script defer src="javascript.js"></script>
+
+  </head>
+
+  <body>
+    <section class="container">
+
+      <!-- HEADING -->
+      <header>
+        <nav class="navigation"> 
+          <!-- p 1 -->
+          <img src="assets/images/logo.svg" class="logo" alt="LOGO" />
+          <!-- OPEN AND CLOSE ICONS -->
+          <img src="assets/images/icon-menu.svg" class="open-icon hidden" alt="Open icon"/>
+          <img src="assets/images/icon-menu-close.svg" class="close-icon hidden" alt="Close icon"/>
+          <!-- hidden -->
+            <!-- p 2 -->
+            <ul class="nav-list nav-open">
+              <li><a href="#" class="nav-item">Home</a></li>
+              <li><a href="#" class="nav-item">New</a></li>
+              <li><a href="#" class="nav-item">Popular</a></li>
+              <li><a href="#" class="nav-item">Trending</a></li>
+              <li><a href="#" class="nav-item">Categories</a></li>
+            </ul>      
+        </nav>
+         
+      </header>
+
+      <section class="main-body">
+
+        <!-- image section 1 -->
+        <!-- hidden photo for phones -->
+        <img src="assets/images/image-web-3-mobile.jpg" class="hidden main-img photo-phone" alt="Photo fills with Logos games for phones" />
+        <img src="assets/images/image-web-3-desktop.jpg" class="main-img desktop-phone" alt="Photo fills with Logos games for desktops" />
+      
+        <!-- section 2 -->
+        <div class="details">
+
+          <!-- PART 1 -->
+          <div>
+            <h1 class="main-title">The Bright Future of Web 3.0?</h1>
+          </div>
+
+          <!-- PART 2 -->
+          <div class="details-par2">
+            <p class="normal-text">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?</p>
+              
+              <a href="#" class="read-btn">Read more</a> 
+            </div>
+          </div>
+
+
+        <!-- SECTION 3 -->
+        <div class="section-new">
+
+          <!-- title -->
+          <h2 class="new">New</h2>
+
+          <!-- topic -->
+          <div class="advantage">
+            
+            <!-- p 1 -->
+            <div>
+              <h3 class="sub-new">Hydrogen VS Electric Cars</h3>
+              <p class="para-new">Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </div>
+
+            <div class="border"></div>
+            <!-- p 2 -->
+            <div>
+              <h3 class="sub-new">The Downsides of AI Artistry</h3>
+              <p class="para-new">What are the possible adverse effects of on-demand AI image generation?</p>
+            </div>
+
+            <div class="border"></div>
+            
+            <!-- p 3 -->
+            <div>
+              <h3 class="sub-new">Is VC Funding Drying Up?</h3>
+              <p class="para-new">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+
+      <!-- section 4 -->
+      <aside class="aside">
+        <!-- 01 -->
+        <div class="aside-item">
+          <img class="img-asside" src="assets/images/image-retro-pcs.jpg" alt="Retro Pcs image"/>
+          <div class="aside-text">
+            <div class="num">01</div>
+            <h4 class="aside-title">Reviving Retro PCs</h4>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+
+        <!-- 02 -->
+        <div class="aside-item">
+          <img class="img-asside" src="assets/images/image-top-laptops.jpg" alt="Top Laptops image"/>          
+          <div class="aside-text">
+            <div class="num">02</div>
+            <h4 class="aside-title">Top 10 Laptops of 2022</h4>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+
+        <!-- 03 -->
+        <div class="aside-item">
+          <img class="img-asside" src="assets/images/image-gaming-growth.jpg" alt="Gaming Growth image"/>
+          <div class="aside-text">
+            <div class="num">03</div>
+            <h4 class="aside-title">The Growth of Gaming</h4>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </aside>
+
+      <div class="attribution">
+        Challenge by <a class="footer-link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a class="footer-link" href="https://linkedin.com/in/selvy-atef-a9a0a6248"  target="_blank">Selvy Atef</a>.
+      </div>
+    </section>
+  </body>
+</html>
