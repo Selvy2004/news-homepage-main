@@ -25,27 +25,27 @@
   </head>
 
   <body>
-    <section class="container">
+    <main class="container">
 
       <!-- HEADING -->
       <header>
-        <nav class="navigation"> 
-          <!-- p 1 -->
-          <img src="assets/images/logo.svg" class="logo" alt="LOGO" />
-          <!-- OPEN AND CLOSE ICONS -->
-          <img src="assets/images/icon-menu.svg" class="open-icon hidden" alt="Open icon"/>
-          <img src="assets/images/icon-menu-close.svg" class="close-icon hidden" alt="Close icon"/>
-          <!-- hidden -->
-            <!-- p 2 -->
-            <ul class="nav-list nav-open">
+        <!-- p 1 -->
+        <img src="assets/images/logo.svg" class="logo" alt="LOGO" />
+        <!-- OPEN AND CLOSE ICONS -->
+        <!-- hidden -->
+          <img src="assets/images/icon-menu.svg" class="btn-icon open-icon hidden" alt="Open icon"/>
+          <img src="assets/images/icon-menu-close.svg" class="btn-icon close-icon hidden" alt="Close icon"/>
+        
+          <!-- p 2 -->
+        <nav class="navigation  nav-open"> 
+            <ul class="nav-list">
               <li><a href="#" class="nav-item">Home</a></li>
               <li><a href="#" class="nav-item">New</a></li>
               <li><a href="#" class="nav-item">Popular</a></li>
               <li><a href="#" class="nav-item">Trending</a></li>
               <li><a href="#" class="nav-item">Categories</a></li>
             </ul>      
-        </nav>
-         
+        </nav>  
       </header>
 
       <section class="main-body">
@@ -72,7 +72,6 @@
             </div>
           </div>
 
-
         <!-- SECTION 3 -->
         <div class="section-new">
 
@@ -83,14 +82,14 @@
           <div class="advantage">
             
             <!-- p 1 -->
-            <div>
+            <div class="adv-item">
               <h3 class="sub-new">Hydrogen VS Electric Cars</h3>
               <p class="para-new">Will hydrogen-fueled cars ever catch up to EVs?</p>
             </div>
 
             <div class="border"></div>
             <!-- p 2 -->
-            <div>
+            <div class="adv-item">
               <h3 class="sub-new">The Downsides of AI Artistry</h3>
               <p class="para-new">What are the possible adverse effects of on-demand AI image generation?</p>
             </div>
@@ -108,9 +107,9 @@
 
       </section>
 
-
       <!-- section 4 -->
       <aside class="aside">
+        
         <!-- 01 -->
         <div class="aside-item">
           <img class="img-asside" src="assets/images/image-retro-pcs.jpg" alt="Retro Pcs image"/>
@@ -140,12 +139,15 @@
             <p>How the pandemic has sparked fresh opportunities.</p>
           </div>
         </div>
+
       </aside>
 
+      <!-- Attribution -->
       <div class="attribution">
         Challenge by <a class="footer-link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
         Coded by <a class="footer-link" href="https://linkedin.com/in/selvy-atef-a9a0a6248"  target="_blank">Selvy Atef</a>.
       </div>
-    </section>
+      
+    </main>
   </body>
 </html>
